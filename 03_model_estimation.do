@@ -19,7 +19,7 @@ set more off
 capture log close
 
 * 设置工作路径（请确认路径正确）
-cd "C:\Users\mingar\Downloads\Finance\homework\ex03"
+cd "C:\Users\mia\Downloads\Finance\homework\ex03"
 
 * 创建 log 文件夹（如果不存在）
 capture mkdir log
