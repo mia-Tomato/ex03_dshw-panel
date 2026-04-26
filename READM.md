@@ -41,7 +41,7 @@
 ---
 
 ## Quarto Book（知识库）
-[https://[mia-Tomato].github.io/dsbw-panel/](https://[mia-Tomato].github.io/dshw-panel/)
+[https://mia-Tomato.github.io/quarto_book/](https://mia-Tomato.github.io/quarto_book/)
 
 ---
 
