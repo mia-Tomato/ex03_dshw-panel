@@ -1,0 +1,24 @@
+project:
+  type: book
+
+book:
+  title: "上市公司资本结构影响因素分析"
+  author: "黄文雅"
+  chapters:
+    - index.qmd
+    - 01-intro.qmd
+    - 02-data.qmd
+    - 03-results.qmd
+    - 04-robustness.qmd
+    - 05-conclusion.qmd
+
+format:
+  html:
+    theme: cosmo
+    code-fold: true
+    toc: true
+    number-sections: true
+    smooth-scroll: true
+
+resources:
+  - ../output/figures

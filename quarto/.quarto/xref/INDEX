@@ -1,0 +1,20 @@
+{
+  "02-data.qmd": {
+    "02-data.html": "ba13bd1a"
+  },
+  "index.qmd": {
+    "index.html": "cc3d08fb"
+  },
+  "01-intro.qmd": {
+    "01-intro.html": "170cb4cf"
+  },
+  "03-results.qmd": {
+    "03-results.html": "4ea6d16d"
+  },
+  "04-robustness.qmd": {
+    "04-robustness.html": "adbe034c"
+  },
+  "05-conclusion.qmd": {
+    "05-conclusion.html": "aee90e8e"
+  }
+}

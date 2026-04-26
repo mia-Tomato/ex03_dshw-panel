@@ -1,0 +1,1 @@
+{"entries":[{"caption":"门槛效应似然比统计量","key":"fig-threshold","order":{"number":3,"section":[5,3,0,0,0,0,0]}},{"caption":"NPR 系数随时间变化","key":"fig-beta-time","order":{"number":1,"section":[5,1,0,0,0,0,0]}},{"caption":"不同规模下 NPR 对 Lev 的边际效应","key":"fig-size","order":{"number":2,"section":[5,2,0,0,0,0,0]}}],"headings":["时变系数模型","规模异质性","门槛效应","小结"],"options":{"chapters":true}}

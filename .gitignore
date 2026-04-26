@@ -1,0 +1,44 @@
+# ========== Python ==========
+__pycache__/
+*.py[cod]
+*.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+
+# ========== R ==========
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+
+# ========== Stata ==========
+*.log
+*.smcl
+*.dta
+*.gph
+*.ocx
+
+# ========== Quarto / Book ==========
+_quarto.yml.book
+_book/
+_site/
+.rsconnect/
+
+# ========== IDE ==========
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ========== OS Files ==========
+.DS_Store
+Thumbs.db
+
+# ========== Data (optional) ==========
+data_raw/
+
+# ========== Environment ==========
+.env
+.venv
