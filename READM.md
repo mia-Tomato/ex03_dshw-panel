@@ -55,14 +55,26 @@
 ---
 
 ## 项目结构
-ex03/
-├── data_raw/ ← 原始 CSMAR 下载数据
-├── data_clean/ ← 清洗合并后的 analysis_data.csv
+```
+ex03/                                    # 作业根目录
+├── data_raw/                            # 原始 CSMAR 下载的 CSV 文件
+├── data_clean/                          # 清洗合并后的分析数据 (analysis_data.csv)
 ├── output/
-│ ├── figures/ ← 所有图形（Fig1 – Fig7）
-│ └── tables/ ← 回归结果表格（csv / tex）
-├── log/ ← Stata 日志文件
-├── *.do ← Stata 分析脚本（模型估计与输出）
-├── *.ipynb ← Python 数据处理与绘图笔记本
-├── README.md ← 本文件
-└── index.qmd / _quarto.yml ← Quarto Book 源文件
+│   ├── figures/                         # 所有图表 (Fig1 – Fig7)
+│   └── tables/                          # 回归结果表格 (csv / tex)
+├── log/                                 # Stata 日志文件
+├── 01_merge_clean.ipynb                 # Python 数据处理与变量构造
+├── 02_descriptive_stats.ipynb           # Python 描述性统计与图表
+├── panel_analysis.do                    # Stata 主分析脚本 (模型估计与输出)
+├── quarto/                              # Quarto Book 项目目录
+│   ├── _quarto.yml                      # 项目配置 (output-dir: docs)
+│   ├── index.qmd                        # 前言
+│   ├── 01-intro.qmd                     # 引言与假设
+│   ├── 02-data.qmd                      # 数据与变量
+│   ├── 03-results.qmd                  # 实证结果
+│   ├── 04-robustness.qmd               # 稳健性检验
+│   ├── 05-conclusion.qmd               # 结论与讨论
+│   └── docs/                           # 渲染输出的 HTML 网站 (GitHub Pages 源)
+├── README.md                           # 本文件
+└── .gitignore                          # Git 忽略规则
+```
