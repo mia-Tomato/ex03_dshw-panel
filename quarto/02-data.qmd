@@ -1,4 +1,4 @@
-# 数据与变量{#sec-data}
+# 数据与变量
 
 ## 数据来源
 所有财务和公司特征数据均来自 **CSMAR**（中国股票市场与会计研究数据库），时间跨度为 2010–2025 年（最终保留 2011–2025 年，因计算增长率需滞后一期）。宏观货币供应量 M2 数据同样取自 CSMAR 宏观经济模块。
@@ -61,15 +61,15 @@ kable(desc_display, format = "html", digits = 4,
 ## 异常值处理 (Winsorize)
 对 Lev、NPR、Tang、Growth、NDTS 在每年横截面上进行双侧 1% Winsorize。处理前后的箱型图对比如 @fig-winsor 所示，极端值得到了有效控制。
 
-https://Fig_winsor_compare.png{#fig-winsor}
+![Winsorize 前后对比图](Fig_winsor_compare.png){#fig-winsor}
 
 ## 相关系数矩阵
 图 @fig-corr 展示了主要变量间的 Pearson 相关系数。NPR 与 Lev 显著负相关，初步支持优序融资理论；所有相关系数均低于 0.7，不存在严重的多重共线性。
 
-https://Fig3_corr_heatmap.png{#fig-corr}
+![相关系数矩阵热力图](Fig3_corr_heatmap.png){#fig-corr}
 
 ## 时序趋势
 图 @fig-ts 分别描绘了 Lev 和 NPR 的年度均值趋势（分产权性质）。国有企业杠杆率整体高于民营企业，而净利率长期低于民营企业，进一步提示产权性质可能调节盈利‑杠杆关系。
 
-https://Fig1_Lev_NPR_timeseries.png{#fig-ts}
+![Lev 与 NPR 时序均值趋势图](Fig1_Lev_NPR_timeseries.png){#fig-ts}
       

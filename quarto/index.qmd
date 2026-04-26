@@ -6,4 +6,4 @@
 - **数据来源**：CSMAR 国泰安数据库
 - **分析工具**：Stata 17 + Python 3
 
-报告的所有代码、原始数据和输出结果均可在 [GitHub 仓库](https://github.com/mia-Tomato/dbam-panel) 获取。
+报告的所有代码、原始数据和输出结果均可在 [GitHub 仓库](https://github.com/mia-Tomato/ex03_dshw-panel) 获取。
